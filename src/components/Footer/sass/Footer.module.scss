@@ -1,0 +1,170 @@
+.footer {
+	background-color: #2f303a;
+	padding: 50px;
+	margin-top: 70px;
+}
+
+.container{
+	display: none;
+	@media screen and (min-width: 768px) {
+		display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 16px;
+	}
+		@media screen and (min-width: 1141px) {
+		grid-template-columns: repeat(4, 1fr);
+	
+	
+		}
+}
+.wrapp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+
+}
+// ======================== logo =======================
+.logo_container{
+	display: flex;
+	align-items: center;
+}
+.logo {
+
+border-radius: 50%;
+
+}
+
+
+
+.logo_name {
+	color: #fff;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.19;
+
+
+	@media screen and (min-width: 768px) {
+
+
+
+	}
+
+
+
+}
+
+.logo_color {
+	color: #fb8500;
+}
+// ===================== address ======================
+.address_item{
+	margin-top: 14px;
+}
+.address{
+	font-size: 14px;
+		line-height: 1.71;
+		font-style: normal;
+	
+	color: #fff;
+		
+}
+
+
+
+.title{
+	
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.14;
+	margin: 10px 0 ;
+	color: #fff;
+}
+.work_time{
+	font-size: 14px;
+		line-height: 1.71;
+		font-style: normal;
+	margin-top: 14px;
+	color: #fff;
+}
+.tel{
+	font-size: 14px;
+		line-height: 1.71;
+		font-style: normal;
+	color: #fff;
+		transition-property: background-color;
+			transition-duration: 250ms;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+			margin-top: 14px;
+	&:hover{
+color: #fb8500;
+	}
+}
+
+// =============================== icon ===========================
+.social{
+	display: flex;
+	margin-top: 20px;
+}
+.social_item{
+	margin-right: 20px;
+}
+.social_link{
+	display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+		transition-property: background-color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	background-color: rgba(255, 255, 255, 0.1);
+	&:hover{
+		background-color: #fb8500;
+	}
+}
+.social_icon{
+	fill: #fff;
+	width: 20px;
+	height: 20px;
+}
+
+
+// ========================= mobile version ===========================
+.mobile_container {
+	@media screen and (min-width: 768px) {
+		display: none;
+
+	}
+}
+
+.mobile_item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+
+}
+.links{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.links_item{
+	margin-right: 20px;
+}
+.link{
+	display: block;
+	font-size: 1rem;
+	font-weight: 700;
+	color: rgb(114, 114, 114);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover{
+color: #fb8500;
+}

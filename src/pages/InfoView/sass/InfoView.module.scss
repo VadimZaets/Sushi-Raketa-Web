@@ -1,0 +1,99 @@
+.wrapper{
+	display: flex;
+	flex-direction: column;
+		@media screen and (min-width: 1024px) {
+		margin-top: 40px;
+		flex-direction: row;
+	}
+}
+.img{
+	border-radius: 24px;
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 20px;
+	@media screen and (min-width: 1024px) {
+			
+	width: 640px;
+	height: 420px;
+		
+	}
+	
+}
+
+.right_block{
+		@media screen and (min-width: 1024px) {
+		
+				margin-left: 40px;
+		
+			}
+	
+}
+.title{
+	font-family: Rubik;
+	font-size: 2rem;
+	line-height: 1.15;
+	font-weight: 400;
+}
+
+.price_block{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.price{
+	min-width: 100px;
+	
+	color: #fb8500 !important;
+	font-family: Rubik;
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 2.25rem;
+	@media screen and (min-width: 1024px) {
+	
+		font-size: 2.25rem;
+	
+		}
+}
+
+.btn{
+	width: 120px;
+		border-radius: 8px;
+		border: none;
+		height: 48px;
+		padding: 0.75rem 1.25rem;
+		padding-top: 9px !important;
+		padding-bottom: 10.5px !important;
+		text-align: center;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		font-family: Rubik;
+		font-size: 1rem;
+		line-height: 24px;
+		font-weight: 600;
+		background-color: #fb8500;
+		color: #fff;
+		cursor: pointer;
+		opacity: 0.8;
+		transition: all 0.8s;
+		margin-left: 30px;
+	
+		@media screen and (min-width: 479px) {
+			width: 150px;
+			font-size: 16px;
+			padding: 0 16px;
+		}
+	}
+	
+	.btn:hover {
+		transition: all 0.8s;
+		opacity: 1;
+	}
+
+	.description{
+		font-family: Rubik;	
+		font-size: 1rem;
+			line-height: 1.4;
+
+	}

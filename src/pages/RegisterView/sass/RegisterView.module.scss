@@ -1,0 +1,73 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px 20px;
+  margin-bottom: 34px;
+  margin-top: 94px;
+  width: 280px;
+  font-size: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 2px 8px 16px hsl(236deg 6% 49% / 80%);
+  box-sizing: border-box;
+  border-radius: 25px;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 32px 48px 32px;
+    margin-bottom: 48px;
+    width: 501px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+
+.authFormTitle {
+  font-family: Rubik;
+  margin-bottom: 32px;
+  font-size: 1.625em;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.authFormInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+  margin-top: 32px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  height: 48px;
+  padding: 0 16px;
+  padding-top: 9px !important;
+  padding-bottom: 10.5px !important;
+  margin-top: 20px;
+  text-align: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  background-color: #fb8500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fb8500;
+  margin-top: 30px;
+}
